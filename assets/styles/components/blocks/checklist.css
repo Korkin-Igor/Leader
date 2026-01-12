@@ -1,0 +1,27 @@
+.checklist {
+    list-style: none;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto var(--space-xl);
+    padding: 0 var(--space-s);
+}
+
+.checklist li {
+    margin: var(--space-m) 0;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    transition: var(--transition);
+}
+
+.checklist li:hover {
+    transform: translateX(6px);
+}
+
+.checkmark {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-width: 24px;
+}

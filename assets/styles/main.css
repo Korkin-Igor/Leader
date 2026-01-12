@@ -1,0 +1,44 @@
+/* Базовые стили */
+@import './base/reset.css';
+@import './base/fonts.css';
+@import './base/variables.css';
+
+/* Компоненты: layout */
+@import './components/layout/container.css';
+@import './components/layout/section.css';
+@import './components/layout/grid.css';
+@import './components/layout/flex.css';
+@import './components/layout/progress-bar.css';
+
+/* Компоненты: blocks */
+@import './components/blocks/card.css';
+@import './components/blocks/icon-box.css';
+@import './components/blocks/checklist.css';
+@import './components/blocks/stats.css';
+
+/* Компоненты: forms */
+@import './components/forms/input.css';
+@import './components/forms/select.css';
+@import './components/forms/form.css';
+
+/* Компоненты: navigations */
+@import './components/navigations/header.css';
+@import './components/navigations/footer.css';
+
+/* Компоненты: ui */
+@import './components/ui/button.css';
+@import './components/ui/popup.css';
+
+/* Секции */
+@import './sections/hero.css';
+@import './sections/why-wait.css';
+@import './sections/what-you-get.css';
+@import './sections/tariffs.css';
+@import './sections/for-whom.css';
+@import './sections/cases.css';
+@import './sections/about.css';
+@import './sections/contacts.css';
+@import './sections/cases.css';
+
+/* Адаптивность */
+@import './responsive.css';

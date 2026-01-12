@@ -1,0 +1,42 @@
+.fixed-header {
+    position: sticky;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background: var(--color-white);
+    box-shadow: var(--shadow);
+    z-index: 1000;
+    padding: calc(var(--space-s) / 2) 0 7px 0;
+}
+
+.fixed-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-s);
+}
+
+nav a {
+    margin: 0 var(--space-xs);
+    text-decoration: none;
+    color: var(--color-dark);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--color-primary);
+}

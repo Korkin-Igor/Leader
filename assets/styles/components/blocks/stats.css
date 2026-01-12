@@ -1,0 +1,30 @@
+.stats {
+    display: flex;
+    align-items: flex-start;
+}
+
+.stat-item {
+    text-align: center;
+    margin: 0 var(--space-l);
+}
+
+.stat-number,
+.percent,
+.plus,
+.years {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-primary);
+
+    padding-left: 10px;
+}
+
+.years {
+    font-size: 2rem;
+}
+
+.stat-item p {
+    margin: 10px 0 0;
+    color: #666;
+    font-size: 1.1rem;
+}

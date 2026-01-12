@@ -1,0 +1,95 @@
+@media (max-width: 1135px) {
+    .fixed-header .container {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+@media (max-width: 1010px) {
+
+
+    .fixed-header {
+        padding-top: 20px;
+        transition: transform 0.3s ease, padding 0.3s ease;
+    }
+
+    .cta-fixed-desktop {
+        display: none;
+    }
+    .cta-fixed-mobile {
+        display: inline;
+    }
+
+    /* Когда шапка "уезжает" вверх */
+    .fixed-header.hidden {
+        transform: translateY(-100%);
+        padding-top: 0;
+    }
+    .icon-box {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: calc(var(--space-m) / 2);
+    }
+}
+
+@media (max-width: 660px) {
+    nav {
+        gap: 5px;
+    }
+    nav a {
+        padding: 0;
+    }
+
+    #for-whom > .container > .grid.grid--2 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .tariff-table th,
+    .tariff-table td {
+        padding: 2px;
+    }
+}
+
+@media (max-width: 580px) {
+    html {
+        font-size: 14px;
+    }
+
+    #about .grid.grid--2 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 520px) {
+    #cases > .container .grid.grid--3 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-section,
+    .text-bg {
+        padding: 20px;
+    }
+    .text-bg {
+        width: 85vw;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    #why-wait > .container .grid.grid--3 {
+        grid-template-columns: 1fr !important;
+    }
+    #contacts .grid.grid--3 {
+        justify-items: center;
+        grid-template-columns: 1fr !important;
+    }
+    #contacts .card {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 440px) {
+
+}

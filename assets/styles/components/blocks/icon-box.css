@@ -1,0 +1,31 @@
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--space-s);
+    padding: var(--space-m);
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.icon-box:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
+.icon-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-box-content h3 {
+    margin: 0 0 var(--space-xs) 0;
+    color: var(--color-secondary);
+    font-size: var(--font-size-h3);
+}
+
+.icon-box-content p {
+    color: #666;
+    font-size: 0.95rem;
+}

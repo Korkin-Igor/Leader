@@ -1,0 +1,70 @@
+.tariffs-section {
+    padding: 80px 20px;
+    background: white;
+    text-align: center;
+}
+
+.tariffs-section h2 {
+    margin-bottom: 40px;
+    color: var(--color-secondary);
+}
+
+.tariff-table {
+    overflow-x: auto;
+    margin: 0 auto 40px;
+    max-width: 1000px;
+}
+
+.tariff-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tariff-table th,
+.tariff-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+.tariff-table th {
+    background: var(--light-bg);
+    font-weight: 500;
+}
+
+.tariff-table .old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.tariff-table .new-price {
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+}
+
+.tariff-table .best-choice {
+    background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+    border: 2px solid var(--color-primary);
+}
+
+.tariff-table .popularity {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.tariff-stats {
+    margin: 30px 0;
+    font-style: italic;
+    color: #666;
+}
+
+.tariff-stats p {
+    margin: 10px 0;
+}

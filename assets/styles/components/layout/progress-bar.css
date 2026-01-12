@@ -1,0 +1,28 @@
+.progress-bar-container {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    text-align: center;
+}
+
+.progress-bar {
+    height: 4px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--color-primary);
+    width: 0;
+    transition: width 0.2s ease;
+}
+
+.progress-label {
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    opacity: 0.9;
+}

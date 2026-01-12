@@ -1,0 +1,86 @@
+/* Попап: центрированное модальное окно */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90vw;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.popup h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    line-height: 1.4;
+}
+
+.popup-timer {
+    font-size: 1rem;
+    color: var(--color-primary);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Кнопка закрытия */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close:hover {
+    color: var(--color-primary);
+}
+
+/* Форма внутри попапа */
+.popup .form-container {
+    margin-top: 20px;
+}
+
+.popup .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.popup .cta-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+}

@@ -1,0 +1,23 @@
+.section {
+    padding: var(--space-xxl) var(--space-s);
+    /*background: var(--color-white);*/
+    background: #e0e7f1;
+    text-align: center;
+}
+
+.section--light {
+    background: var(--color-light);
+}
+
+.section-title {
+    font-size: var(--font-size-h2);
+    margin-bottom: var(--space-xl);
+    color: var(--color-secondary);
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-l);
+    font-weight: 400;
+    opacity: 0.95;
+}

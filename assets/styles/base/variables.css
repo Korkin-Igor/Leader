@@ -1,0 +1,35 @@
+:root {
+    /* Цвета */
+    --color-primary: #E74C3C;       /* основной акцент */
+    --color-secondary: #2c3f66;     /* тёмный фон/текст */
+    --color-light: #F8F9FA;         /* светлый фон */
+    --color-white: #FFFFFF;
+    --color-dark: #333333;
+    --color-border: #E0E0E0;
+
+    /* Типографика */
+    --font-main: 'Roboto', sans-serif;
+    --font-size-h1: clamp(1.8rem, 4vw, 2.5rem);
+    --font-size-h2: clamp(1.5rem, 3.5vw, 2rem);
+    --font-size-h3: clamp(1.2rem, 3vw, 1.5rem);
+    --font-size-base: 1rem;
+    --line-height: 1.6;
+
+    /* Отступы */
+    --space-xs: 0.5rem;
+    --space-s: 1rem;
+    --space-m: 1.5rem;
+    --space-l: 1.5rem;
+    --space-xl: 3rem;
+    --space-xxl: 4rem;
+
+    /* Прочее */
+    --border-radius: 8px;
+
+    --border-color: #777;
+    --light-bg: #EEE;
+
+    --transition: all 0.3s ease;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --container-width: 1200px;
+}

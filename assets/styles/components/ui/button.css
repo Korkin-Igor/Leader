@@ -1,0 +1,47 @@
+.cta-button {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+    font-size: 1.05rem;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.2);
+    text-align: center;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(231, 76, 60, 0.4);
+}
+
+.cta-button span {
+    margin-right: 6px;
+    font-size: 1.1rem;
+}
+
+/* Фиксированная кнопка в хедере */
+.cta-fixed {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+    font-size: 0.95rem;
+}
+
+.cta-fixed-mobile {
+    display: none;
+}
+
+.cta-fixed:hover {
+    background: #c0392b;
+    transform: scale(1.03);
+}
